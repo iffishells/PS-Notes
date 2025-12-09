@@ -1,4 +1,3 @@
-Here are the **corrected and cleanly formatted versions** of your screen-session–killing commands.
 
 ---
 
@@ -22,6 +21,14 @@ screen -ls | awk '/Detached/ {print $1}' | cut -d. -f1 | xargs -r kill -9
 
 ```bash
 screen -ls | awk '/Detached/ {print $1}' | cut -d. -f1 | xargs -r kill -9
+```
+
+---
+
+### **4. (Same as #2, cleaned formatting)**
+
+```bash
+screen -wipe
 ```
 
 ---
